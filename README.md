@@ -19,5 +19,17 @@ The power of a word is decent. By using countervectorize in sklearn, we could sp
 
 ## Model fitting
 We will try different type of models to see their performance in predicting. 
+- Logistic Regression
+- SVM
+- Decision_Tree
+- LightGBM
+- GradientBoost
 
+
+Or we can try different method to split the sentence
+- Logistic Regression
+- SVM
+- Decision_Tree
+- LightGBM
+- GradientBoost
 
