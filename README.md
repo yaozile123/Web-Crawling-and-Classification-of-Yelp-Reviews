@@ -18,6 +18,7 @@ Reviewer can rate the restaurant from 1 to 5 stars. It might be hard for the dat
 The power of a word is decent. By using countervectorize in sklearn, we could split the sentence into bag of words. The bad of words could let us know which words are stand for good review and which words stand for bad reviews. 
 
 ## Model fitting
+### Model choosing
 We will try different type of models to see their performance in predicting. 
 - Logistic Regression
 - SVM
