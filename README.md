@@ -13,4 +13,8 @@ Nowadays, people are busy with their jobs and studies. More and more people didn
 ## Collecting data
 Yelp is one of the most popular app in food searching. Gourmets would post their reviews for the restaurant they visited. However, Yelp didn't provide any API to download the reviews. What we are gonna do is to collect the data from yelp. We will create a web-crawler by using requests to collect the data.
 
+
+## Data cleaning
+Reviewer can rate the restaurant from 1 to 5 stars. It might be hard for the data-science beginner like me to predict multiple outcome.So, I will change the  We are gonna mark the rate that below or equal to 3 as the bad review and the rate greater than 3 as the good review.
+
 Using web-crawler based on requests and bs4 to get data from yelp review. Focused on specific word in each review and predict the score 
