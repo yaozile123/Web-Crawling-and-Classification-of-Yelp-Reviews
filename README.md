@@ -33,3 +33,5 @@ Or we can try different method to split the sentence
 - LightGBM
 - GradientBoost
 
+## Something I wanna say in the end
+I am currently a master student in washu and major in quantitative finance. This is the first project I uploaded to github. If you see any problems, feel free to contact me via email: y.zile@wustl.edu.
