@@ -1,7 +1,4 @@
-# Welcome to the Nlp-with-Yelp-review Project
-Hello eveyone, this is Zile. I am dedicating in finding the authentic and delicious food around the world. Hope this program could help all of you find the retuarant you will enjoy.
-
-## Purpose of Project
+## Purpose
 Nowadays, people are busy with their jobs and studies. More and more people didn't wanna waste of their time to try out the new restaurant. Instead, people like to use app like yelp to help them find the restaurant. We would like to use python to analysis the review from yelp to see the 'power' of a comment. By using web-crawler based on requests, we'll get data from yelp review and focused on specific word in each review to predict the score. In the end, the program will create a rating classifier for yelp reviews.
 ## Dependencies
 - pandas
@@ -21,18 +18,16 @@ The power of a word is decent. By using countervectorize in sklearn, we could sp
 ### Model choosing
 We will try different type of models to see their performance in predicting. 
 - Logistic Regression
+- ![image](C:/Users/yaozl/OneDrive/桌面/NOTES/bag-log.png)
 - SVM
 - Decision_Tree
 - LightGBM
-- GradientBoost
 
 
-Or we can try different method to split the sentence
+Or we can try TF-IDF instead of bag of words
 - Logistic Regression
 - SVM
 - Decision_Tree
 - LightGBM
-- GradientBoost
 
-## Something I wanna say in the end
-I am currently a master student in washu and major in quantitative finance. This is the first project I uploaded to github. If you see any problems, feel free to contact me via email: y.zile@wustl.edu.
+## Results
