@@ -18,23 +18,31 @@ The power of a word is decent. By using countervectorize in sklearn, we could sp
 ### Model choosing
 We will try different type of models to see their performance in predicting. 
 - Logistic Regression
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/bag-log.png)
 - SVM
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/bag-svm.png)
 - Decision_Tree
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/bag-tree.png)
 - LightGBM
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/bag-gbm.png)
 
 
 Or we can try TF-IDF instead of bag of words
 - Logistic Regression
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/tf-log.png)
 - SVM
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/tf-svm.png)
 - Decision_Tree
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/tf-tree.png)
 - LightGBM
+
   ![image](https://github.com/yaozile123/image-folder/blob/f3f01be56b9af3f846be0769008390313a886d19/tf-gbm.png)
 
 ## Results
