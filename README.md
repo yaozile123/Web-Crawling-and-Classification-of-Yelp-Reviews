@@ -1,5 +1,7 @@
 ## Purpose
-Nowadays, people are busy with their jobs and studies. More and more people didn't wanna waste of their time to try out the new restaurant. Instead, people like to use app like yelp to help them find the restaurant. We would like to use python to analysis the review from yelp to see the 'power' of a comment. By using web-crawler based on requests, we'll get data from yelp review and focused on specific word in each review to predict the score. In the end, the program will create a rating classifier for yelp reviews.
+Nowadays, people are busy with their jobs and studies. More and more people didn't wanna waste of their time to try out the new restaurant. Instead, people like to use app like yelp to help them find the restaurant. We would like to use python to analysis the review from yelp to see the 'power' of a comment. 
+
+By using web-crawler based on requests, we'll get data from yelp review and focused on specific word in each review to predict the score. In the end, the program will create a rating classifier for yelp reviews.
 ## Dependencies
 - pandas
 - numpy
