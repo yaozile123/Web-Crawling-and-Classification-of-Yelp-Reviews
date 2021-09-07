@@ -21,30 +21,30 @@ The power of a word is decent. By using countervectorize in sklearn, we could sp
 We will try different type of models to see their performance in predicting. 
 - Logistic Regression
 
-  <img src = "classification_report/bag-log.png">
+  <img src = "report_image/bag-log.png">
 - SVM
 
-  <img src = "classification_report/bag-svm.png">
+  <img src = "report_image/bag-svm.png">
 - Decision_Tree
 
-  <img src = "classification_report/bag-tree.png">
+  <img src = "report_image/bag-tree.png">
 - LightGBM
 
-  <img src = "classification_report/bag-gbm.png">
+  <img src = "report_image/bag-gbm.png">
 
 Or we can try TF-IDF instead of bag of words
 - Logistic Regression
 
-  <img src = "classification_report/tf-log.png">
+  <img src = "report_image/tf-log.png">
 - SVM
 
-  <img src = "classification_report/tf-svm.png">
+  <img src = "report_image/tf-svm.png">
 - Decision_Tree
 
-  <img src = "classification_report/tf-tree.png">
+  <img src = "report_image/tf-tree.png">
 - LightGBM
 
-  <img src = "classification_report/tf-gbm.png">
+  <img src = "report_image/tf-gbm.png">
 
 ## Results
 By using the different models in either bag-of-words or TF-IDF, we will get differernt results. We can see that xxxx has the best performance in bag-of-words and xxxx has the best performance in TF-IDF.
