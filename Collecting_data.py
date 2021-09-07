@@ -7,6 +7,10 @@ import pandas as pd
 import json
 import requests
 
+reviews=[]
+scores=[]
+scoresd={}
+
 def get_review_content(baseurl,start,end):
     
     for i in range(start,end,10):
