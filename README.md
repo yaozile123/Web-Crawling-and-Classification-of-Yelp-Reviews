@@ -47,3 +47,4 @@ Or we can try TF-IDF instead of bag of words
   <img src = "classification_report/tf-gbm.png">
 
 ## Results
+By using the different models in either bag-of-words or TF-IDF, we will get differernt results. We can see that xxxx has the best performance in bag-of-words and xxxx has the best performance in TF-IDF.
