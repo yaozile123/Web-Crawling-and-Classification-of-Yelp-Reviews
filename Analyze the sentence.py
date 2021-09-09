@@ -9,7 +9,7 @@ vectorizer = CountVectorizer(max_df=0.8,min_df=0.15) #choose the vectorizer you 
 #vectorizer = TfidfVectorizer(max_df=0.8,min_df=0.15) #de-annotation if you wanna use tf-idf
 def analyze_sentence(vectorizer, reviews):
     vectorizer.fit(reviews)
-    X = vectorizer.transform(reviews)
+    X = vectorizer.transform(reviews).todense()
     rerurn X
 
 
