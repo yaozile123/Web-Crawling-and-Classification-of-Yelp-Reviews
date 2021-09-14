@@ -10,7 +10,7 @@ vectorizer = CountVectorizer(max_df=0.8,min_df=0.15) #choose the vectorizer you 
 def analyze_sentence(vectorizer, reviews):
     vectorizer.fit(reviews)
     X = vectorizer.transform(reviews).todense()
-    rerurn X
+    return X
 
 
 
